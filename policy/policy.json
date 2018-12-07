@@ -1,0 +1,29 @@
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Sid": "VisualEditor0",
+            "Effect": "Allow",
+            "Action": [
+                "batch:DescribeJobQueues",
+                "ec2:DescribeSpotFleetRequestHistory",
+                "ecs:ListAttributes",
+                "batch:DescribeComputeEnvironments",
+                "ecs:DescribeTaskDefinition",
+                "ecs:DescribeClusters",
+                "ecs:ListServices",
+                "batch:DescribeJobs",
+                "ecs:ListTasks",
+                "ecs:ListTaskDefinitionFamilies",
+                "batch:DescribeJobDefinitions",
+                "ecs:DescribeServices",
+                "ecs:ListContainerInstances",
+                "ecs:DescribeContainerInstances",
+                "ecs:DescribeTasks",
+                "ecs:ListTaskDefinitions",
+                "ecs:ListClusters"
+            ],
+            "Resource": "*"
+        }
+    ]
+}
